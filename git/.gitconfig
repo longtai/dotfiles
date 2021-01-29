@@ -5,15 +5,13 @@
 	sslVerify = false
 [core]
 	excludesfile = /Users/longtai/.gitignore_global
+[commit]
+	template = /Users/longtai/.dotfiles/git/commit-conventions.txt
+	
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
-[user]
-	useConfigOnly = true
-	name = longtai.chuang@coretronic.com
-	email = longtai.chuang@coretronic.com
-[commit]
-	template = /Users/longtai/.dotfiles/git/commit-conventions.txt
+
