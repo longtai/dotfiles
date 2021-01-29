@@ -5,7 +5,7 @@
 	sslVerify = false
 [core]
     excludesfile = /Users/longtai/.dotfiles/git/.gitignore_global
-    editor = vim +16 -c 'startinsert'
+    editor = nvim +16 -c 'startinsert'
 [commit]
 	template = /Users/longtai/.dotfiles/git/commit-conventions.txt
 	
