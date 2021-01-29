@@ -4,7 +4,7 @@
 [http]
 	sslVerify = false
 [core]
-	excludesfile = /Users/longtai/.gitignore_global
+    excludesfile = /Users/longtai/.dotfiles/git/.gitignore_global
 [commit]
 	template = /Users/longtai/.dotfiles/git/commit-conventions.txt
 	
