@@ -1,11 +1,13 @@
 [user]
+	name = longtai.chuang@coretronic.com
+	email = longtai.chuang@coretronic.com
 [credential]
 	helper = osxkeychain
 [http]
 	sslVerify = false
 [core]
-    excludesfile = /Users/longtai/.dotfiles/git/.gitignore_global
-    editor = nvim +16 -c 'startinsert'
+	excludesfile = /Users/longtai/.dotfiles/.gitignore_global
+    editor = "vim +16 +startinsert"
 [commit]
 	template = /Users/longtai/.dotfiles/git/commit-conventions.txt
 	
